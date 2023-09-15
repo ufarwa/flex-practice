@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    padding: 20px;
+    flex-flow:  wrap;
+justify-content: space-between;
+}
+
+.heading {
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    gap: 20px;
+}
+
+.para{
+    /* display: flex; */
+    text-align:justify;
+}
+
+.div2 {
+ 
+    display: flex;
+    gap: 20px;
+    width: 40%;
+    padding-left: 50px;
+  
+}
+
+.images2 {
+    display: flex;
+    row-gap: 40px;
+    flex-direction: column;
+    /* aspect-ratio: 20/4; */
+    padding-top: 50px;
+}
